@@ -7,8 +7,7 @@ class Product{
         return 0;
     }
     public double product(double x, double y) {
-        return 0.0.
-                ;
+        return 0.0;
     }
 }
 public class Main {
