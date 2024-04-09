@@ -6,7 +6,7 @@ import com.driver.Main;
 import org.junit.jupiter.api.Test;
 
 public class TestCases {
-    static class Product {
+    public static class Product {
         public int product(int x, int y) {
             return 0;
         }
