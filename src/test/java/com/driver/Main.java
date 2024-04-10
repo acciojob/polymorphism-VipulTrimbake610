@@ -1,25 +1,27 @@
 package com.driver;
 
+import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
 public class Main {
     public static class Product {
         public int product(int x, int y) {
-            return 0;
+            return x*y;
         }
 
         public int product(int x, int y, int z) {
-            return 0;
+            return x*y*z;
         }
 
         public double product(double x, double y) {
-            return 0.0;
+            return x*y;
         }
     }
 
     public static void main(String[] args){
         Product p = new Product();
-        p.product(10,20);
-        p.product(10,20,30);
-        p.product(9.9,9.9);
+        System.out.println(p.product(10,20));
+        System.out.println(p.product(10,20,30));
+        System.out.println(p.product(9.9,9.9));
 
     }
 
